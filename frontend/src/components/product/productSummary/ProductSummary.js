@@ -65,6 +65,14 @@ const ProductSummary = ({ products }) => {
           count={category.length}
           bgColor="card4"
         />
+        <a href="http://127.0.0.1:5000" onClick={console.log("hello")}>
+          <InfoBox
+            icon={magicIcon}
+            title={"Prediction"}
+            // count={0}
+            bgColor="card3"
+          />
+        </a>
       </div>
     </div>
   );
