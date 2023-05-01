@@ -54,6 +54,7 @@ function App() {
             </Sidebar>
           }
         />
+
         <Route
           path="/add-product"
           element={

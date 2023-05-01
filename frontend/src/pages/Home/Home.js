@@ -10,7 +10,8 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <RiProductHuntLine size={35} />
+          {/* <RiProductHuntLine size={35} /> */}
+          <p></p>
         </div>
 
         <ul className="home-links">
@@ -38,16 +39,16 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>Inventory {"&"} Management system</h2>
+          <h2>HelpSphere</h2>
           <p>
             Inventory system to control and manage proucts in the warehouse in
             real time and integrated to make it easier to develop your business.
           </p>
-          <div className="hero-buttons">
+          {/* <div className="hero-buttons">
             <button className="--btn --btn-secondary">
               <Link to="/dashboard"></Link>
             </button>
-          </div>
+          </div> */}
           <div className="--flex-start"></div>
         </div>
 
